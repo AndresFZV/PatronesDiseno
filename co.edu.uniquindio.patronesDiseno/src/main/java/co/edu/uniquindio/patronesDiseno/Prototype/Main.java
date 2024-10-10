@@ -22,6 +22,7 @@ public class Main {
         cuchillo1.usar();
         tenedor1.usar();
 
+        
         System.out.println("\nCubiertos personalizados:");
 
         ICubierto cuchara2 = fabrica.crearCuchara();
