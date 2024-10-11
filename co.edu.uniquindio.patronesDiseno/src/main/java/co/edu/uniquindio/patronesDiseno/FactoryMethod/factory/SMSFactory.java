@@ -1,7 +1,7 @@
 package co.edu.uniquindio.patronesDiseno.FactoryMethod.factory;
 
-import FactoryMethod.model.SMS;
-import FactoryMethod.services.Notificacion;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.model.SMS;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.services.Notificacion;
 
 public class SMSFactory extends NotificacionFactory {
     private String numeroTelefono;

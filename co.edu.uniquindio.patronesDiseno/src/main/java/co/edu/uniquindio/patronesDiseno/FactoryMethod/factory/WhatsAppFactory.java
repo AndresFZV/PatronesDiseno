@@ -1,7 +1,7 @@
 package co.edu.uniquindio.patronesDiseno.FactoryMethod.factory;
 
-import FactoryMethod.model.WhatsApp;
-import FactoryMethod.services.Notificacion;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.model.WhatsApp;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.services.Notificacion;
 
 public class WhatsAppFactory extends NotificacionFactory {
     private String numeroTelefono;
