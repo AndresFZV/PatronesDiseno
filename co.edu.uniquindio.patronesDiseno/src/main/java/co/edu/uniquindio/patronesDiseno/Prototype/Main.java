@@ -1,5 +1,11 @@
 package co.edu.uniquindio.patronesDiseno.Prototype;
 
+import co.edu.uniquindio.patronesDiseno.Prototype.factory.FabricaCubiertos;
+import co.edu.uniquindio.patronesDiseno.Prototype.model.Cuchara;
+import co.edu.uniquindio.patronesDiseno.Prototype.model.Cuchillo;
+import co.edu.uniquindio.patronesDiseno.Prototype.model.Tenedor;
+import co.edu.uniquindio.patronesDiseno.Prototype.services.ICubierto;
+
 public class Main {
     public static void main(String[] args) {
 

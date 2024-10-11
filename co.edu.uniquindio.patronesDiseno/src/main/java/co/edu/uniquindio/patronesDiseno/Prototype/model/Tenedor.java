@@ -1,6 +1,8 @@
-package co.edu.uniquindio.patronesDiseno.Prototype;
+package co.edu.uniquindio.patronesDiseno.Prototype.model;
 
-    public class Tenedor implements ICubierto {
+import co.edu.uniquindio.patronesDiseno.Prototype.services.ICubierto;
+
+public class Tenedor implements ICubierto {
         private String material;
         private String tamano;
 

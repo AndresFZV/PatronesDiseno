@@ -1,6 +1,8 @@
-package co.edu.uniquindio.patronesDiseno.Prototype;
+package co.edu.uniquindio.patronesDiseno.Prototype.factory;
 
-    public class FabricaCubiertos {
+import co.edu.uniquindio.patronesDiseno.Prototype.services.ICubierto;
+
+public class FabricaCubiertos {
         private ICubierto prototipoCuchara;
         private ICubierto prototipoCuchillo;
         private ICubierto prototipoTenedor;

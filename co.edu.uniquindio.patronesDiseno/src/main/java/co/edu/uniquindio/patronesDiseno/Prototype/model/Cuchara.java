@@ -1,4 +1,6 @@
-package co.edu.uniquindio.patronesDiseno.Prototype;
+package co.edu.uniquindio.patronesDiseno.Prototype.model;
+
+import co.edu.uniquindio.patronesDiseno.Prototype.services.ICubierto;
 
 public class Cuchara implements ICubierto {
     private String material;
