@@ -33,7 +33,7 @@ public class Main {
 
         ICubierto cuchillo2 = fabrica.crearCuchillo();
         cuchillo2.usar();
-        ((Cuchillo) cuchillo2).setMaterial("Acero al Carbono");
+        ((Cuchillo) cuchillo2).setMaterial("Acero al carbono");
         ((Cuchillo) cuchillo2).setTamaño("Grande");
         cuchillo2.usar();
 
