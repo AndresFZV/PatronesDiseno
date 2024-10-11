@@ -1,6 +1,6 @@
 package co.edu.uniquindio.patronesDiseno.FactoryMethod.model;
 
-import FactoryMethod.services.Notificacion;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.services.Notificacion;
 
 public class WhatsApp implements Notificacion {
     private String numeroTelefono;

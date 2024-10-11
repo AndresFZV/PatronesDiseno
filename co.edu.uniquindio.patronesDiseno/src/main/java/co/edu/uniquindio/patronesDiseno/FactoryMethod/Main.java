@@ -1,10 +1,10 @@
 package co.edu.uniquindio.patronesDiseno.FactoryMethod;
 
-import FactoryMethod.factory.CorreoFactory;
-import FactoryMethod.factory.NotificacionFactory;
-import FactoryMethod.factory.SMSFactory;
-import FactoryMethod.factory.WhatsAppFactory;
-import FactoryMethod.services.Notificacion;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.factory.CorreoFactory;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.factory.NotificacionFactory;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.factory.SMSFactory;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.factory.WhatsAppFactory;
+import co.edu.uniquindio.patronesDiseno.FactoryMethod.services.Notificacion;
 
 public class Main {
     public static void main(String[] args) {
