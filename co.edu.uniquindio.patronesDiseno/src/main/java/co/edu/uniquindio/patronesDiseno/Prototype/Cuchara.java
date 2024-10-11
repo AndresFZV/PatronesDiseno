@@ -2,21 +2,21 @@ package co.edu.uniquindio.patronesDiseno.Prototype;
 
 public class Cuchara implements ICubierto {
     private String material;
-    private String tamaño;
+    private String tamano;
 
-    public Cuchara(String material, String tamaño) {
+    public Cuchara(String material, String tamano) {
         this.material = material;
-        this.tamaño = tamaño;
+        this.tamano = tamano;
     }
 
     @Override
     public Cuchara clonar() {
-        return new Cuchara(this.material, this.tamaño);
+        return new Cuchara(this.material, this.tamano);
     }
 
     @Override
     public void usar() {
-        System.out.println("Usando una cuchara de " + material + " de tamaño " + tamaño);
+        System.out.println("Usando una cuchara de " + material + " de tamaño " + tamano);
     }
 
     public String getMaterial() {
@@ -27,11 +27,11 @@ public class Cuchara implements ICubierto {
         this.material = material;
     }
 
-    public String getTamaño() {
-        return tamaño;
+    public String getTamano() {
+        return tamano;
     }
 
-    public void setTamaño(String tamaño) {
-        this.tamaño = tamaño;
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
     }
 }

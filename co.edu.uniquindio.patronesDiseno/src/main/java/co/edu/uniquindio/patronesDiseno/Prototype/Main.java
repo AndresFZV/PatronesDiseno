@@ -28,7 +28,7 @@ public class Main {
         ICubierto cuchara2 = fabrica.crearCuchara();
         cuchara2.usar();
         ((Cuchara) cuchara2).setMaterial("Oro");
-        ((Cuchara) cuchara2).setTamaño("Pequeña");
+        ((Cuchara) cuchara2).setTamano("Pequeña");
         cuchara2.usar();
 
         ICubierto cuchillo2 = fabrica.crearCuchillo();
