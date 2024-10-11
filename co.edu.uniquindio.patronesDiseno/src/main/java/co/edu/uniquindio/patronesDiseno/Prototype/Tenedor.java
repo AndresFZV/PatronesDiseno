@@ -2,21 +2,21 @@ package co.edu.uniquindio.patronesDiseno.Prototype;
 
     public class Tenedor implements ICubierto {
         private String material;
-        private String tamaño;
+        private String tamano;
 
-        public Tenedor(String material, String tamaño) {
+        public Tenedor(String material, String tamano) {
             this.material = material;
-            this.tamaño = tamaño;
+            this.tamano = tamano;
         }
 
         @Override
         public Tenedor clonar() {
-            return new Tenedor(this.material, this.tamaño);
+            return new Tenedor(this.material, this.tamano);
         }
 
         @Override
         public void usar() {
-            System.out.println("Usando un tenedor de " + material + " de tamaño " + tamaño);
+            System.out.println("Usando un tenedor de " + material + " de tamaño " + tamano);
         }
 
         public String getMaterial() {
@@ -27,12 +27,12 @@ package co.edu.uniquindio.patronesDiseno.Prototype;
             this.material = material;
         }
 
-        public String getTamaño() {
-            return tamaño;
+        public String getTamano() {
+            return tamano;
         }
 
-        public void setTamaño(String tamaño) {
-            this.tamaño = tamaño;
+        public void setTamano(String tamaño) {
+            this.tamano = tamano;
         }
     }
 

@@ -36,6 +36,5 @@ public class Cliente {
         chaquetaRetro.mostrar();
         camisetaRetro.mostrar();
         pantalonetaRetro.mostrar();
-
     }
 }

@@ -34,23 +34,23 @@ public class Main {
         ICubierto cuchillo2 = fabrica.crearCuchillo();
         cuchillo2.usar();
         ((Cuchillo) cuchillo2).setMaterial("Acero al carbono");
-        ((Cuchillo) cuchillo2).setTamaño("Grande");
+        ((Cuchillo) cuchillo2).setTamano("Grande");
         cuchillo2.usar();
 
         ICubierto tenedor2 = fabrica.crearTenedor();
         tenedor2.usar();
         ((Tenedor) tenedor2).setMaterial("Titanio");
-        ((Tenedor) tenedor2).setTamaño("Mediano");
+        ((Tenedor) tenedor2).setTamano("Mediano");
         tenedor2.usar();
 
         ICubierto cuchillo3 = fabrica.crearCuchillo();
         ((Cuchillo) cuchillo3).setMaterial("Cerámica");
-        ((Cuchillo) cuchillo3).setTamaño("Pequeño");
+        ((Cuchillo) cuchillo3).setTamano("Pequeño");
         cuchillo3.usar();
 
         ICubierto tenedor3 = fabrica.crearTenedor();
         ((Tenedor) tenedor3).setMaterial("Acero Inoxidable");
-        ((Tenedor) tenedor3).setTamaño("Grande");
+        ((Tenedor) tenedor3).setTamano("Grande");
         tenedor3.usar();
 
     }

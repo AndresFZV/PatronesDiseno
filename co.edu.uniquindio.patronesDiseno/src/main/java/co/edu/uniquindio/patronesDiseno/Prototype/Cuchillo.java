@@ -2,21 +2,21 @@ package co.edu.uniquindio.patronesDiseno.Prototype;
 
 public class Cuchillo implements ICubierto {
     private String material;
-    private String tamaño;
+    private String tamano;
 
-    public Cuchillo(String material, String tamaño) {
+    public Cuchillo(String material, String tamano) {
         this.material = material;
-        this.tamaño = tamaño;
+        this.tamano = tamano;
     }
 
     @Override
     public Cuchillo clonar() {
-        return new Cuchillo(this.material, this.tamaño);
+        return new Cuchillo(this.material, this.tamano);
     }
 
     @Override
     public void usar() {
-        System.out.println("Usando un cuchillo de " + material + " de tamaño " + tamaño);
+        System.out.println("Usando un cuchillo de " + material + " de tamaño " + tamano);
     }
 
     public String getMaterial() {
@@ -27,11 +27,11 @@ public class Cuchillo implements ICubierto {
         this.material = material;
     }
 
-    public String getTamaño() {
-        return tamaño;
+    public String getTamano() {
+        return tamano;
     }
 
-    public void setTamaño(String tamaño) {
-        this.tamaño = tamaño;
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
     }
 }
