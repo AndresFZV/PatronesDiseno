@@ -10,6 +10,7 @@ public class SMSFactory extends NotificacionFactory {
         this.numeroTelefono = numeroTelefono;
         this.mensaje = mensaje;
     }
+    //
     @Override
     public Notificacion crearNotificacion() {
         return new SMS(numeroTelefono, mensaje);
